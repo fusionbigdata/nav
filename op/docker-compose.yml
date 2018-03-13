@@ -9,4 +9,4 @@ services:
      restart: always
      volumes:
        - /root/nav/:/go/src/v2nav
-       - /root/nav/letsencrypt_data:/etc/letsencrypt
+       - /root/nav/op/letsencrypt_data:/etc/letsencrypt
