@@ -17,7 +17,8 @@
       <input id="kw" autocomplete="off"><br/>
 
       <div class="info">
-        <p>Type keywords, then click the site, you will search in the site.</p>
+        <p>Enter keywords, then click a sitelink, you will search that site.
+          Press enter to search on google.</p>
       </div>
     </div>
 
