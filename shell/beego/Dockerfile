@@ -16,4 +16,4 @@ EXPOSE 443
 
 # Set the entry point of the container to the bee command that runs the
 # application and watches for changes
-CMD ["bee", "run", "v2nav"]
+CMD ["bee", "run", "nav"]
