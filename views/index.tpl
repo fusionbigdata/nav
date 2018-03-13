@@ -5,6 +5,15 @@
   <meta charset="utf-8">
   <title></title>
   <link rel="stylesheet" href="static/css/style.css">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111087412-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-111087412-2');
+  </script>
 </head>
 
 <body>
@@ -17,7 +26,7 @@
       <input id="kw" autocomplete="off"><br/>
 
       <div class="info">
-        <p>Enter keywords, then click a sitelink, you will search that site.
+        <p>Enter keywords, then click a sitelink, you will search on that site.
           Press enter to search on google.</p>
       </div>
     </div>
