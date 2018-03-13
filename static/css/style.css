@@ -1,0 +1,280 @@
+@charset "UTF-8";
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img, span {
+  margin: 0;
+  padding: 0;
+}
+
+fieldset, img {
+  border: none;
+}
+
+address, caption, cite, code, dfn, th, var {
+  font-style: normal;
+  font-weight: normal;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+i {
+  font-style: normal;
+}
+
+* {
+  font-family: "Lucida Grande", "ff-nuvo-web-pro-1", "ff-nuvo-web-pro-2", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+}
+
+body {
+  background: #2B2B2B;
+}
+
+::selection {
+  background: #00B388;
+  color: #fff;
+}
+
+.kw input::selection {
+  background: #00B388;
+  color: #fff;
+}
+
+a:link {
+  color: #00B388;
+}
+
+a.wordsub:active {
+  border: 1px solid #00B388;
+}
+
+a:visited {
+  color: #00B388;
+}
+
+a:hover {
+  color: #74D6C2;
+}
+
+a.wordsub:hover {
+  border: 1px solid #00B388;
+}
+
+.content {
+  width: 100%;
+  height: auto;
+  padding: 0 60px;
+  box-sizing: border-box;
+}
+
+.kw {
+  position: relative;
+  width: 460px;
+  margin: 100px auto 30px auto;
+}
+
+.kw input {
+  width: 460px;
+  height: 48px;
+  left: 0;
+  font-size: 16px;
+  color: white;
+  border-width: 0px;
+  border-radius: 30px;
+  background-color: #3F3F3F;
+  padding: 6px 24px;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.searchicon {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 48px;
+  height: 48px;
+  z-index: 2;
+}
+
+.info {
+  width: 460px;
+  padding: 15px 30px;
+  box-sizing: border-box;
+  font-size: 9pt;
+  color: #6F6F6F;
+}
+
+.entrances {
+  width: 100%;
+  position: relative;
+}
+
+.entrances::after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden
+}
+
+.catalog {
+  float: left;
+  width: 200px;
+  background: #2B2B2B;
+  height: 328px;
+  position: relative;
+  margin: 0px 6px 80px 6px;
+  padding-top: 14px;
+}
+
+.catalogname {
+  font-size: 14pt;
+  font-weight: 500;
+  text-align: center;
+  height: 34px;
+  line-height: 34px;
+  margin: 0;
+  color: #00B388;
+}
+
+.pop {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  box-shadow: 0px 2px 3px 1px rgba(0, 0, 0, 1);
+  border: 6px white;
+}
+
+.more_list {
+  width: 200px;
+  padding-bottom: 10px;
+  background: #333333;
+  position: absolute;
+  z-index: 2;
+  height: auto;
+  box-shadow: -4px 4px 10px rgba(0, 0, 0, 0.2), 0px -1px 0px #333, 4px 4px 10px rgba(0, 0, 0, 0.2), 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.top {
+  text-align: center;
+}
+
+.top img {
+  cursor: pointer;
+}
+
+.topicon {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+  box-shadow: 0px 4px 6px 2px rgba(0, 0, 0, 1);
+  border: 6px white;
+}
+
+.topname {
+  display: block;
+  margin: 6px 0 0 0;
+  height: 24px;
+  font-size: 10pt;
+  font-weight: 100;
+  color: white;
+}
+
+.catalog .sub {
+  display: inline-block;
+  width: 160px;
+  margin: auto;
+  height: 32px;
+  display: block;
+  position: relative;
+}
+
+.addot {
+  background: #00B388;
+  width: 6px;
+  height: 6px;
+  border-radius: 3px;
+  margin: 0px 6px 9px 0px;
+  display: inline-block;
+}
+
+.wordsub {
+  display: inline-block;
+  border: 1px solid transparent;
+  margin: 0px 6px 8px 0px;
+  padding: 0px 6px 0px 12px;
+  height: 34px;
+  border-radius: 18px;
+  background-color: #3F3F3F;
+  display: inline-block;
+  position: relative;
+}
+
+.subicon {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  border-radius: 12px;
+  box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 1);
+  margin: 4px 0 0 16px;
+}
+
+.wordicon {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  border-radius: 12px;
+  margin: 5px 0px 0px 6px;
+}
+
+.wordname {
+  display: inline-block;
+  margin: 10px 0 0 0px;
+  padding-top: 0px;
+  font-size: 12pt;
+  line-height: ;
+  vertical-align: top;
+  line-height: 90%;
+  word-break: break-all;
+  color: #C4C4C4;
+}
+
+.subname {
+  display: inline-block;
+  margin: 7px 0 0 6px;
+  padding-top: 5px;
+  font-size: 10pt;
+  vertical-align: top;
+  line-height: 90%;
+  word-break: break-all;
+  color: #C4C4C4;
+}
+
+.subname2 {
+  display: inline-block;
+  margin: 1px 0 0 6px;
+  padding-top: 5px;
+  font-size: 10pt;
+  line-height: ;
+  vertical-align: top;
+  line-height: 90%;
+  word-break: break-all;
+  color: #C4C4C4;
+}
+
+.lang {
+  display: block;
+  margin: 7px 25px 0 0;
+  text-align: right;
+  padding-top: 5px;
+  font-size: 10pt;
+  line-height: 90%;
+  word-break: break-all;
+  color: #C4C4C4;
+}

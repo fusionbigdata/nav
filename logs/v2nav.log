@@ -1,0 +1,21 @@
+2018/03/08 16:45:13.056 [I] [main.go:42] beego run. 
+2018/03/08 16:45:13.134 [I] [asm_amd64.s:2361] http server Running on http://:8000
+2018/03/08 16:45:16.467 [I] [main.go:42] beego run. 
+2018/03/08 16:45:16.479 [I] [asm_amd64.s:2361] http server Running on http://:8000
+2018/03/08 16:45:42.710 [I] [main.go:42] beego run. 
+2018/03/08 16:45:42.719 [I] [asm_amd64.s:2361] http server Running on http://:8000
+2018/03/08 16:45:43.638 [D] [server.go:2694] ::1 - - [08/Mar/2018 04:45:43] "GET / HTTP/1.1 200 0" 0.005324 http://localhost:8000/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+
+2018/03/08 16:45:43.720 [D] [server.go:2694] ::1 - - [08/Mar/2018 04:45:43] "GET /static/css/style.css HTTP/1.1 304 0" 0.002490 http://localhost:8000/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+
+2018/03/08 16:45:46.712 [D] [server.go:2694] ::1 - - [08/Mar/2018 04:45:46] "GET / HTTP/1.1 200 0" 0.006283 http://localhost:8000/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+
+2018/03/08 16:45:49.347 [I] [default.go:58] [Default]set cookie:  en_US localhost 
+2018/03/08 16:45:49.347 [D] [server.go:2694] ::1 - - [08/Mar/2018 04:45:49] "GET /?lang=en_US HTTP/1.1 302 0" 0.000186 http://localhost:8000/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+
+2018/03/08 16:45:49.362 [D] [server.go:2694] ::1 - - [08/Mar/2018 04:45:49] "GET / HTTP/1.1 200 0" 0.005209 http://localhost:8000/ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+
+2018/03/08 17:42:19.277 [I] [main.go:42] beego run. 
+2018/03/08 17:42:19.289 [I] [asm_amd64.s:2361] http server Running on http://:8000
+2018/03/08 17:44:41.037 [I] [main.go:42] beego run. 
+2018/03/08 17:44:41.047 [I] [asm_amd64.s:2361] http server Running on http://:8000

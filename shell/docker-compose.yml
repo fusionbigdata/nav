@@ -1,0 +1,12 @@
+version: '2'
+
+services:
+   beego:
+     build: ./beego
+     ports:
+       - '80:80'
+       - '443:443'
+     restart: always
+     volumes:
+       - /root/v2nav.com/v2nav:/go/src/v2nav
+       - /root/v2nav.com/letsencrypt_data:/etc/letsencrypt
