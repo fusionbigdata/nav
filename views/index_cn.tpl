@@ -17,7 +17,7 @@
 </head>
 
 <body>
-  <p class='lang'><a href="?lang=en_US">English<a></p>
+  <p class='lang'><a href="?lang=en-US">English<a></p>
   <div id="fb-root"></div>
   <div class='content'>
     <div class='kw'>

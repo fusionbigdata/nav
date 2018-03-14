@@ -5,19 +5,10 @@
   <meta charset="utf-8">
   <title></title>
   <link rel="stylesheet" href="static/css/style.css">
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111087412-2"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'UA-111087412-2');
-  </script>
 </head>
 
 <body>
-  <p class='lang'><a href="?lang=zh_CN">中文<a></p>
+  <p class='lang'><a href="?lang=zh-CN">中文<a></p>
   <div id="fb-root"></div>
   <div class='content'>
     <div class='kw'>
@@ -26,8 +17,7 @@
       <input id="kw" autocomplete="off"><br/>
 
       <div class="info">
-        <p>Enter keywords, then click a sitelink, you will search on that site.
-          Press enter to search on google.</p>
+        <p>Type keywords, then click the site, you will search in the site.</p>
       </div>
     </div>
 

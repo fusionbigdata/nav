@@ -30,10 +30,17 @@ func (c *MainController) Prepare() {
 
 	var sess_lang, _ = c.Ctx.Request.Cookie("lang")
 	if sess_lang == nil {
-		setCookie(c, "en_US")
-		c.TplName = "index.tpl"
+		lang := c.Ctx.Request.Header.Get("Accept-Language")[0:5]
+		beego.Info(lang)
+		if lang == "zh-CN" {
+			c.TplName = "index_cn.tpl"
+			setCookie(c, "zh-CN")
+		} else {
+			c.TplName = "index.tpl"
+			setCookie(c, "en-US")
+		}
 	} else {
-		if sess_lang.Value == "zh_CN" {
+		if sess_lang.Value == "zh-CN" {
 			c.TplName = "index_cn.tpl"
 		} else {
 			c.TplName = "index.tpl"

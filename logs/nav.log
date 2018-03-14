@@ -1,0 +1,5 @@
+2018/03/14 15:30:31.565 [I] [main.go:42] beego run. 
+2018/03/14 15:30:31.624 [I] [asm_amd64.s:2361] http server Running on http://:80
+2018/03/14 15:30:31.624 [I] [asm_amd64.s:2361] https server Running on https://:443
+2018/03/14 15:30:31.624 [C] [asm_amd64.s:2361] ListenAndServe:  listen tcp :80: bind: permission denied
+2018/03/14 15:30:31.624 [C] [asm_amd64.s:2361] ListenAndServeTLS:  listen tcp :443: bind: permission denied

@@ -8,5 +8,5 @@ services:
        - '443:443'
      restart: always
      volumes:
-       - /root/nav/:/go/src/v2nav
-       - /root/nav/op/letsencrypt_data:/etc/letsencrypt
+       - /root/v2nav/:/go/src/v2nav
+       - /root/v2nav/op/letsencrypt_data:/etc/letsencrypt
