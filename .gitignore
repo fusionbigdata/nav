@@ -4,3 +4,7 @@ v2nav
 logs/v2nav.log
 
 logs/v2nav.log
+
+*.log
+
+*.log
